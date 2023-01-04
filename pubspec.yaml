@@ -11,6 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
+  flutter_hooks: ^0.18.5+1
+  flutter_svg: ^0.22.0
 
 dev_dependencies:
   flutter_test:
@@ -41,8 +43,8 @@ flutter:
         pluginClass: CustomPhoneNumberFieldPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - packages/custom_phone_number_field/assets/icons/search.svg
   #   - images/a_dot_ham.jpeg
   #
   # For details regarding assets in packages, see

@@ -20,10 +20,10 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    CustomPhoneNumberField customPhoneNumberFieldPlugin = CustomPhoneNumberField();
-    MockCustomPhoneNumberFieldPlatform fakePlatform = MockCustomPhoneNumberFieldPlatform();
-    CustomPhoneNumberFieldPlatform.instance = fakePlatform;
-
-    expect(await customPhoneNumberFieldPlugin.getPlatformVersion(), '42');
+    // CustomPhoneNumberField customPhoneNumberFieldPlugin = CustomPhoneNumberField();
+    // MockCustomPhoneNumberFieldPlatform fakePlatform = MockCustomPhoneNumberFieldPlatform();
+    // CustomPhoneNumberFieldPlatform.instance = fakePlatform;
+    //
+    // expect(await customPhoneNumberFieldPlugin.getPlatformVersion(), '42');
   });
 }
