@@ -22,8 +22,6 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-
-    controller.text = '+2348101556749';
   }
 
   @override
