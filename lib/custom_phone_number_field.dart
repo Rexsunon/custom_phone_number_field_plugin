@@ -55,7 +55,6 @@ class _CustomPhoneNumberFieldState extends State<CustomPhoneNumberField> {
   Widget build(BuildContext context) {
     final countryFlag = useState<String>("");
 
-    final localFocusNode = useFocusNode();
     final focusColor = useState<Color>(Colors.grey[400]!);
     final showDropdown = useState(false);
     final countries = useState(CountriesConstant.allCountries);
