@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'dart:async';
-
-import 'package:flutter/services.dart';
 import 'package:custom_phone_number_field/custom_phone_number_field.dart';
 
 void main() {

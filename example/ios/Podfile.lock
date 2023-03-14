@@ -1,25 +1,19 @@
 PODS:
-  - country_codes (0.0.1):
-    - Flutter
   - custom_phone_number_field (0.0.1):
     - Flutter
   - Flutter (1.0.0)
 
 DEPENDENCIES:
-  - country_codes (from `.symlinks/plugins/country_codes/ios`)
   - custom_phone_number_field (from `.symlinks/plugins/custom_phone_number_field/ios`)
   - Flutter (from `Flutter`)
 
 EXTERNAL SOURCES:
-  country_codes:
-    :path: ".symlinks/plugins/country_codes/ios"
   custom_phone_number_field:
     :path: ".symlinks/plugins/custom_phone_number_field/ios"
   Flutter:
     :path: Flutter
 
 SPEC CHECKSUMS:
-  country_codes: b0900f46ad686281d5dab438e354e44ad10f5941
   custom_phone_number_field: 20cb7aa5ee4837a857ec59b229243f05755801d4
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
 

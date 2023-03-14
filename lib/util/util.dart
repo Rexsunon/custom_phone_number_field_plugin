@@ -2,7 +2,6 @@ import 'dart:developer';
 
 import 'package:custom_phone_number_field/data/models/phone_number_details.dart';
 import 'package:custom_phone_number_field/util/countries_constant.dart';
-import 'package:flutter/foundation.dart';
 
 PhoneNumberDetails? separatePhoneAndDialCode(String phoneWithDialCode) {
   Map<String, String> foundedCountry = {};
