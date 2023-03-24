@@ -105,6 +105,7 @@ class _CustomPhoneNumberFieldState extends State<CustomPhoneNumberField> {
           builder: (state) {
             return Column(
               mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Container(
                   height: 55,
